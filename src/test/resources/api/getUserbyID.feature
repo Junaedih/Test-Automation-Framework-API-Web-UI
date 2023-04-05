@@ -1,4 +1,4 @@
-@Get-User-By-ID
+@api
 Feature: Get User By ID
 
   @[Positive-Test]-Verify-successfully-Get-User-By-ID-01
