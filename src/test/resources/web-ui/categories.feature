@@ -1,4 +1,4 @@
-@Categories
+@web
 Feature: Display Product by Categories
 
   @[Positive-Test]-product-by-categories-phones
