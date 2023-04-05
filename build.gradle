@@ -88,3 +88,23 @@ task cucumber_api() {
     }
 }
 
+
+
+task cucumber() {
+    description("Running Cucumber Test")
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin', 'html:reports/index.html',
+                    '--plugin', 'json:reports/index.json',
+                    '--plugin', 'pretty',
+                    '--glue', 'com.jun',
+                    '--tags', "${tags}",
+                    'src/test/resources'
+            ]
+        }
+    }
+}
