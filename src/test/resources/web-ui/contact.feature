@@ -1,4 +1,4 @@
-@Contact
+@web
 Feature: Contact
 
   @[Positive-Test]-send-contact-message
