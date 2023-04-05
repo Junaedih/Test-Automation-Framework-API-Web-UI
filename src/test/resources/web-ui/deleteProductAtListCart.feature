@@ -1,4 +1,4 @@
-@delete-product-list-cart
+@web
 Feature: Delete Product At List Cart
 
   @[Positive-Test]-delete-product-phone-Samsung-galaxy-s6-at-list-cart
