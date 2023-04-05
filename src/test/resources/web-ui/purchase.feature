@@ -1,4 +1,4 @@
-@Purchase-Product
+@web
 Feature: Purchase Product
 
 
