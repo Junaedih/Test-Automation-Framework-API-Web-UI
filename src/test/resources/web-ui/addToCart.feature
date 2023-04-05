@@ -1,4 +1,4 @@
-@Add-Product-To-Cart
+@web
 Feature: Add Product to Cart
 
   @[Positive-Test]-Add-Product-To-Cart-Samsung-galaxy-s6
