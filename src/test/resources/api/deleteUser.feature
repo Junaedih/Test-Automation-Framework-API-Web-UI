@@ -1,4 +1,4 @@
-@Delete-User
+@api
 Feature: Delete User
 
   @[Positive-Test]Verify-successfully-Delete-User
