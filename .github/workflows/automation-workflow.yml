@@ -1,3 +1,10 @@
+# This workflow uses actions that are not certified by Github.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
+
 name: Automation Test Workflow
 
 on:
@@ -10,7 +17,7 @@ on:
   
 
 jobs:
-  build:
+  Automation-Test:
 
     runs-on: ubuntu-latest
 
@@ -32,7 +39,7 @@ jobs:
       
     #setup gradlew
     - name: Setup gradlew
-      run: chmod+x gradlew
+      run: chmod +x ./gradlew
       
     #execute gradlew command for running cucumber test
     - name : Execute Test
