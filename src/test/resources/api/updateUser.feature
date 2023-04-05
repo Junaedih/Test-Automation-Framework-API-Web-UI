@@ -1,4 +1,4 @@
-@Update-User
+@api
 Feature: Update User
 
   @[Positive-Test]Verify-successfully-Update-User-(firstName)
