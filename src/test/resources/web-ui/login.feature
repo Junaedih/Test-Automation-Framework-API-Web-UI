@@ -1,4 +1,4 @@
-@login
+@web
 Feature: Login
 
   @[Positive-Test]-valid-login-successfully
