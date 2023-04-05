@@ -8,7 +8,7 @@ Feature: Create User
    value email is primary key
 
     Given url dummy-api.io can accessed
-    When send request post create user with firstName: "Junaedih" , lastName: "Alghazali" email:"jun_x7@gmail.com"
+    When send request post create user with firstName: "Junaedih" , lastName: "Alghazali" email:"jun_x8@gmail.com"
     Then get response code 200 OK, user already created
 
 
