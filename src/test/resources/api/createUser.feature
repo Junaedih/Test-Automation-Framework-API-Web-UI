@@ -1,4 +1,4 @@
-@Create-User
+@api
 Feature: Create User
 
   @[Positive-Test]Verify-successfully-Create-User
