@@ -1,4 +1,4 @@
-@Get-List-Of-Tags
+@api
 Feature: Get List of Tags
 
   @[Positive-Test]-Get-List-Of-Tags
