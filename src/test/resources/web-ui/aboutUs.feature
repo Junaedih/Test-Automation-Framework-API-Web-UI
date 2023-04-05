@@ -1,4 +1,4 @@
-@about-us
+@web
 Feature: About Us
   @[Positive-Test]-about-us-video-running
   Scenario: [Positive Test] verify "about us" page is working fine play video
