@@ -57,8 +57,8 @@ task cucumber_webui() {
             main = "io.cucumber.core.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
             args = [
-                    '--plugin', 'html:reports/webui/reportTestWebUI.html',
-                    '--plugin', 'json:reports/webui/reportTestWebUI.json',
+                    '--plugin', 'html:reports/webui/index.html',
+                    '--plugin', 'json:reports/webui/index.json',
                     '--plugin', 'pretty',
                     '--glue', 'com.jun.webui',
                     '--tags', "${tags}",
@@ -77,8 +77,8 @@ task cucumber_api() {
             main = "io.cucumber.core.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
             args = [
-                    '--plugin', 'html:reports/api/reportTestAPI.html',
-                    '--plugin', 'json:reports/api/reportTestAPI.json',
+                    '--plugin', 'html:reports/api/index.html',
+                    '--plugin', 'json:reports/api/index.json',
                     '--plugin', 'pretty',
                     '--glue', 'com.jun.api',
                     '--tags', "${tags}",
