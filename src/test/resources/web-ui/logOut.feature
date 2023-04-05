@@ -1,4 +1,4 @@
-@Logout
+@web
 Feature: Logout
 
   @valid-logout
