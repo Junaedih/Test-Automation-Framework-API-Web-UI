@@ -1,5 +1,5 @@
 
-@SignUp
+@web
 Feature: SignUp (Registration userID to log in Application)
   Note : "Registration one userID only one time execute, after that user name already exist")
 
