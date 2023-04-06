@@ -3,11 +3,11 @@ Test for API and Web UI in one repository, test case uses the Gherkin format, an
 #
 #### API target: https://dummyapi.io/docs/user
 **The points in the test (API) :**
-*	**Get User by ID**
-*	**Create User**
-*	**Update User**
-*	**Delete User**
-*	**Get List Tags**
+*	Get User by ID
+*	Create User
+*	Update User
+*	Delete User
+*	Get List Tags
 
 ![dummyapi](capture/dummyapi.PNG)
 
