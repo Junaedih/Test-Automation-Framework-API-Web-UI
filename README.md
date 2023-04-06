@@ -48,6 +48,7 @@ Test for API and Web UI in one repository, test case uses the Gherkin format, an
 > * Continuous testing of coding and delivery will be achieved
 
 > Test automation framework is helpful when you need to execute the same test scripts multiple times with different builds to examine the application and validate output. It is better to avoid automated testing for functionality, which you used only once since building automation script itself is time-consuming.
+> 
 > [source][https://www.clariontech.com/blog/what-are-test-automation-frameworks-and-types]
 
 
