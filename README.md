@@ -64,7 +64,10 @@ Test for API and Web UI in one repository, test case uses the Gherkin format, an
 ![work3](capture/workflow3.PNG)
 
 
-
+#
+### Report menggunakan Cucumber untuk format HTML dan JSON
+![work1](capture/htmlandjsonformat.PNG)
+![work2](capture/htmlreport1.PNG)
 
 
 
