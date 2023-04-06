@@ -58,7 +58,7 @@ Test for API and Web UI in one repository, test case uses the Gherkin format, an
 ![git](capture/git.PNG)
 
 #
-### GitHub Actions workflow untuk menjalankan test 
+### GitHub Actions workflow to running test 
 
 * Automation Test API Workflow
 * Automation Test Web-UI Workflow
