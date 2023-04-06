@@ -33,10 +33,12 @@ Test for API and Web UI in one repository, test case uses the Gherkin format, an
 #
 >All software needs to be tested before it is released to users. Software testing is a crucial part of the development cycle as it ensures good quality deliverables to the users. Every company focuses on testing, and most of them are tending towards automation testing over manual testing.
 
-> What is the Automation Framework?
+> #### What is the Automation Framework?
+
 > Automation Framework is not a single tool or process, but it is a collection of tools and processes working together to support automated testing of any application. It integrates various functions like libraries, test data, and various reusable modules.
 
-> Importance of Automation Framework in Software Testing
+> #### Importance of Automation Framework in Software Testing
+
 > The automation framework not only offers the benefit of reusing the code in various scenarios, but it also helps the team to write down the test script in a standard format. Hence, the test automation framework handles all the issues. Besides, there are many other benefits of using automation framework testing as listed below:
 
 > * Maintain a well-defined strategy across the test suites
