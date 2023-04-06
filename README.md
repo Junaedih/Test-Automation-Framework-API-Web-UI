@@ -2,12 +2,12 @@
 Test for API and Web UI in one repository, test case uses the Gherkin format, and Cucumber as a library for its implementation. Separate folder or package in Java Code, Step Definitions and Features for each type of test (Web and API). Report use Cucumber for HTML and JSON format, GitHub Actions workflow to run tests that have been made by way of (event) manual triggers and every time there is a Pull Request.
 #
 #### API target: https://dummyapi.io/docs/user
-The points in the test (API) :
-*	Get User by ID
-*	Create User
-*	Update User
-*	Delete User
-*	Get List Tags
+**The points in the test (API) :**
+*	**Get User by ID**
+*	**Create User**
+*	**Update User**
+*	**Delete User**
+*	**Get List Tags**
 
 ![dummyapi](capture/dummyapi.PNG)
 
@@ -16,7 +16,7 @@ The points in the test (API) :
 
 #
 #### Web UI (website) target: https://www.demoblaze.com/
-The points in the test (Web UI) :
+**The points in the test (Web UI) :**
 -	About Us
 -	Home
 -	Add Product to Cart
