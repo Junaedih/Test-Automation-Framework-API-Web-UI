@@ -57,6 +57,12 @@ Test for API and Web UI in one repository, test case uses the Gherkin format, an
 ### Git version 2.39.1.windows.1
 ![git](capture/git.PNG)
 
+#
+### GitHub Actions workflow untuk menjalankan test 
+![work1](capture/workflow1.PNG)
+![work2](capture/workflow2.PNG)
+![work3](capture/workflow3.PNG)
+
 
 
 
