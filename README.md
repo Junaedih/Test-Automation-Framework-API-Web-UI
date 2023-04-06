@@ -49,7 +49,6 @@ Test for API and Web UI in one repository, test case uses the Gherkin format, an
 
 
 #
-### In development using tools :
 ### ItelliJ IDEA Community Edition 2022.3.2
 ![gherkin](capture/gherkin.PNG)
 ![stepDefinition](capture/stepDefinition.PNG)
